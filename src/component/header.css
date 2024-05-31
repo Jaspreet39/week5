@@ -1,0 +1,26 @@
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.leftComponent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftComponent_option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.leftComponent_option h2 {
+    margin-right: 40px;
+    font-size: 25px;
+    font-weight: 400;
+}

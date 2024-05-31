@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Blog from "./component/Blog";
+import Header from "./component/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <div className="Blogs">
+        <Blog
+          header="2024 S"
+          heading="2024S-T3 CSDD2000 - Full-Stack Web Development 01 (M11 Group 1)"
+          img="https://img.freepik.com/free-photo/blonde-woman-with-elegant-hairstyle-typing-text-keyboard-office-indoor-portrait-international-employees-with-secretary-using-laptop_197531-3711.jpg"
+          name="Basir Ahmed"
+        />
+        <Blog
+          header="2024 S"
+          heading="2024S-T3 CSDD2000 - Full-Stack Web Development 01 (M11 Group 1)"
+          img="https://img.freepik.com/free-photo/blonde-woman-with-elegant-hairstyle-typing-text-keyboard-office-indoor-portrait-international-employees-with-secretary-using-laptop_197531-3711.jpg"
+          name="Basir Ahmed"
+        />
+      </div>
     </div>
   );
 }
